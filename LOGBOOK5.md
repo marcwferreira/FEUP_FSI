@@ -47,7 +47,7 @@ Running the exploit:
 ### Desafio 1
 
 - Since the main.c code was provided we start by examining it and trying to find a way to exploit it.
-- We were able to see that our BUFFER had a size of bytes, however scanf was reading 28 bytes.
+- We were able to see that our BUFFER had a size of 20 bytes, however scanf was reading 28 bytes.
 
 ![ctf5_1](./img/logbook5/ctf1.png)
 
